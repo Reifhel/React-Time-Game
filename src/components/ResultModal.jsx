@@ -27,7 +27,7 @@ const ResultModal = forwardRef(function ResultModal(
       <p>
         The target time was{" "}
         <strong>
-          {targetTime} segundo{targetTime > 1 ? "s" : ""}
+          {targetTime} second{targetTime > 1 ? "s" : ""}
         </strong>
       </p>
       <p>You stoped the timer with {formattedRemainingTime} seconds left</p>
